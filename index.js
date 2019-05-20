@@ -6,6 +6,6 @@ class BoardMember {
   }
   
   BoardMember.prototype.veto = function(){
-    
+    return "No, I must disagree";
   }
 }
